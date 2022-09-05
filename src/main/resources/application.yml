@@ -1,0 +1,15 @@
+stock:
+  service:
+    host: localhost
+    port: 7070
+user:
+  service:
+    host: localhost
+    port: 7071
+spring:
+  data:
+    mongodb:
+      database: tradeservice
+      host: localhost
+      username: trade
+      password: trade

@@ -1,0 +1,24 @@
+### TICK STREAM
+GET localhost:8080/stock/tick/stream
+Content-Type: text/event-stream
+
+### GET USER ALL
+GET localhost:8080/user/all
+content-type: application/json
+
+
+### GET USER STOCK
+GET localhost:8080/user/631617800c805425eeb21849
+content-type: application/json
+
+
+### GET USER STOCK
+POST localhost:8080/stock/trade
+content-type: application/json
+
+{
+  "userId": "631617800c805425eeb21849",
+  "stockSymbol": "AMZN",
+  "quantity": 8,
+  "tradeType": "SELL"
+}
